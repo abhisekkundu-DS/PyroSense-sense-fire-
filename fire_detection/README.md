@@ -28,8 +28,6 @@ fire_detection.py fire_test1.MP4 --model best_fire_detect.pt
 
 ## 🔥 Fire Detection Demo
 
-![Fire Detection Demo](https://github.com/abhisekkundu-DS/PyroSense-sense-fire-/blob/main/fire_detection/main/redme_gif.gif?raw=true)
-
-<p align="center">
-  <img src="https://github.com/abhisekkundu-DS/PyroSense-sense-fire-/blob/main/fire_detection/main/redme_gif.gif?raw=true" alt="Fire Detection Demo">
-</p>
+# create an optimized palette and gif (better colors & smaller)
+ffmpeg -i fire_test1.MP4 -vf "fps=12,scale=640:-1:flags=lanczos,palettegen" -y palette.png
+ffmpeg -i fire_test1.MP4 -i palette.png -lavfi "fps=12,scale=640:-1:flags=lanczos[x];[x][1:v]paletteuse" -y fire_demo.gif
