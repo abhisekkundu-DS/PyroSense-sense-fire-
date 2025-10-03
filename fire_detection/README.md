@@ -28,5 +28,5 @@ fire_detection.py fire_test1.MP4 --model best_fire_detect.pt
 
 ## 🔥 Fire Detection Demo
 
-![Fire Detection Demo](fire_detection/main/redme_gif.gif)
+![Fire Detection Demo](https://github.com/abhisekkundu-DS/PyroSense-sense-fire-/blob/main/fire_detection/main/redme_gif.gif)
 
