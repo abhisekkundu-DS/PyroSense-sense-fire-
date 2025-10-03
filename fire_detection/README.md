@@ -30,3 +30,6 @@ fire_detection.py fire_test1.MP4 --model best_fire_detect.pt
 
 ![Fire Detection Demo](https://github.com/abhisekkundu-DS/PyroSense-sense-fire-/blob/main/fire_detection/main/redme_gif.gif?raw=true)
 
+<p align="center">
+  <img src="https://github.com/abhisekkundu-DS/PyroSense-sense-fire-/blob/main/fire_detection/main/redme_gif.gif?raw=true" alt="Fire Detection Demo">
+</p>
