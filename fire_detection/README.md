@@ -25,3 +25,8 @@ fire_detection.py test.jpg --model best_fire_detect.pt
 ### video :
 ```bash
 fire_detection.py fire_test1.MP4 --model best_fire_detect.pt
+
+## 🔥 Fire Detection Demo
+
+![Fire Detection Demo](demo/fire_demo.gif)
+
