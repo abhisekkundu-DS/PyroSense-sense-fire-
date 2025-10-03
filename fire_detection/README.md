@@ -28,5 +28,5 @@ fire_detection.py fire_test1.MP4 --model best_fire_detect.pt
 
 ## 🔥 Fire Detection Demo
 
-![Fire Detection Demo](fire_detection/main/Adobe Express - fire_detected_video.gif)
+![Fire Detection Demo](fire_detection/main/redme_gif.gif)
 
